@@ -1,0 +1,12 @@
+<ScannerLayout>:
+    orientation: 'vertical'
+    spacing: 10
+    padding: 10
+    Image:
+        id: camera_display
+        size_hint_y: 0.9
+    BoxLayout:
+        size_hint_y: 0.1
+        Button:
+            text: "Вставить ссылку"
+            on_release: root.show_result("https://example.com")
